@@ -18,7 +18,7 @@ class WoocommerceServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(
             __DIR__.'/../config/woocommerce_to_laravel.php',
-            'woocommerce_to_laravel'
+            'woocommerce_to_laravel' 
         );
     }
 }
