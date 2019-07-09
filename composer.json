@@ -2,9 +2,8 @@
     "name": "stefanoregis/woocommerce-to-laravel",
     "description": "Save datas from wordepress/woocommerce REST Api to laravel eloquent models",
     "type": "library",
-    "require": {
-        "automattic/woocommerce": "^3.0"
-    },
+
+    
     "homepage": "https://github.com/stefanoregis/woocommerceToLaravel",
     "support": {
         "issues": "https://github.com/stefanoregis/woocommerceToLaravel",
