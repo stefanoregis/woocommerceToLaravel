@@ -1,6 +1,6 @@
 <?php
-// MyVendor\contactform\src\ContactFormServiceProvider.php
-namespace MyVendor\contactform;
+
+namespace stefanoregis\woocommerceToLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class WoocommerceServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(
             __DIR__.'/../config/woocommerce_to_laravel.php',
-            'woocommerce_to_laravel' 
+            'woocommerce_to_laravel'
         );
     }
 }
