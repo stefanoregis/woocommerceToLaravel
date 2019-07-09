@@ -27,7 +27,7 @@
     "type": "package",
     "package": {
         "name": "stefanoregis/woocommerce-to-laravel",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "source": {
             "url": "https://github.com/stefanoregis/woocommerceToLaravel.git",
             "type": "git",
