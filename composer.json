@@ -20,5 +20,12 @@
             "name": "Stefano Regis",
             "email": "stefano.regis@gmail.com"
         }
-    ]
+    ],
+	"autoload": {
+		"psr-4": {
+		  "stefanoregis\\woocommercetolaravel\\": ["src"]
+		}
+	  }
+  
+	
 }
