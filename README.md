@@ -5,7 +5,7 @@ Install: composer require stefanoregis/woocommercetolaravel
 
 
 include the provider in app.php:
-stefanoregis\woocomemrcetolaravel\WoocommerceToLaravelServiceProvider::class, 
+stefanoregis\woocommercetolaravel\WoocommerceToLaravelServiceProvider::class, 
 
 
 publish the config file:
