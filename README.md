@@ -10,3 +10,7 @@ stefanoregis\woocomemrcetolaravel\WoocommerceToLaravelServiceProvider::class,
 
 publish the config file:
 php artisan vendor:publish --provider="stefanoregis\woocommercetolaravel\WoocommerceToLaravelServiceProvider"
+
+
+update the config file with your parameters
+
