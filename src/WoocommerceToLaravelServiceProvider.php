@@ -22,7 +22,7 @@ class WoocommerceToLaravelServiceProvider extends ServiceProvider
 
 
         $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
-        $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+
 
         $this->publishes([
             __DIR__.'/config/woocommercetolaravel.php' => config_path('woocommercetolaravel.php'),
