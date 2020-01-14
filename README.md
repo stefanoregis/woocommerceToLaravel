@@ -14,3 +14,4 @@ php artisan vendor:publish --provider="stefanoregis\woocommercetolaravel\Woocomm
 
 update the config file with your parameters
 
+migrate the tables
