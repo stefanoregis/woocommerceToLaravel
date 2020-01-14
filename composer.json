@@ -1,44 +1,24 @@
 {
-    "name": "stefanoregis/woocommerce-to-laravel",
-    "description": "Save datas from wordepress/woocommerce REST Api to laravel eloquent models",
+    "name": "stefanoregis/woocommercetolaravel",
+    "description": "A simple system to import orders from Woocommerce to Laravel",
     "type": "library",
     "require": {
-
-
         "automattic/woocommerce": "^3.0"
-
     },
-
-    "homepage": "https://github.com/stefanoregis/woocommerceToLaravel",
-    "support": {
-        "issues": "https://github.com/stefanoregis/woocommerceToLaravel",
-        "source": "https://github.com/stefanoregis/woocommerceToLaravel/src"
+    "require-dev": {
+        "automattic/woocommerce": "^3.0"
     },
-    "autoload": {
-        "psr-4": {
-            "StefanoRegis\\woocommerceToLaravel\\": "packages/stefanoregis/woocommerceToLaravel/src",
-            "App\\": "app/"
-        }
-
-    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "keywords": [
+        "API",
+        "WooCommerce"
+    ],
     "authors": [
         {
-            "name": "Stefano",
+            "name": "Stefano Regis",
             "email": "stefano.regis@gmail.com"
         }
-    ],
-    "repositories": [
-{
-    "type": "package",
-    "package": {
-        "name": "stefanoregis/woocommerce-to-laravel",
-        "version": "0.0.2",
-        "source": {
-            "url": "https://github.com/stefanoregis/woocommerceToLaravel.git",
-            "type": "git",
-            "reference": "master"
-        }
-    }
-}
-]
+    ]
 }

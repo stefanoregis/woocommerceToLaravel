@@ -1,12 +1,6 @@
 <?php
-$routeConfig = [
-    'namespace' => 'stefanoregis\woocommerceToLaravel\controllers',
-
-
-];
-
-Route::get('/woocommercewbsites/grid', 'WoocommercewbsitesController@grid');
-Route::resource('/woocommercewbsites', 'WoocommercewbsitesController');
-
-
+// MyVendor\contactform\src\routes\web.php
+Route::get('contact', function(){
+    return 'Hello from the contact form package';
+});
 ?>
